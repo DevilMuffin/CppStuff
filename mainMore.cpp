@@ -18,6 +18,15 @@ int main() {
             cout << "#";
         }
 
+        cout << "  ";
+
+        for(int z = 0; z<i+1; z++) {
+            cout << "#";
+        }
+        for(int y = 0; y<x-i; y++) {
+            cout << " ";
+        }
+
         cout << endl; 
     }
 
